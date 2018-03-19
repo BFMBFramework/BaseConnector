@@ -1,6 +1,6 @@
 {
   "name": "bfmb-base-connector",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Base Connector for BFMBFramework development",
   "main": "./dist/connector.js",
   "scripts": {
@@ -23,12 +23,11 @@
     "url": "https://github.com/BFMBFramework/BaseConnector/issues"
   },
   "homepage": "https://github.com/BFMBFramework/BaseConnector#readme",
-  
   "dependencies": {
     "uuid": "^3.2.1"
   },
   "peerDependencies": {
-    "bfmb-comcenter": "0.1.0"
+    "bfmb-comcenter": "~0.2.0"
   },
   "devDependencies": {
     "@types/uuid": "^3.4.3",
