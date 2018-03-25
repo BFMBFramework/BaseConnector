@@ -6,6 +6,7 @@ export abstract class Connector {
 
 	constructor(name : string) {
 		this.name = name;
+		this.connections = [];
 	}
 
 	getName() : string {

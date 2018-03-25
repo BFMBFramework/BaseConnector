@@ -4,6 +4,7 @@ const uuidv1 = require("uuid/v1");
 class Connector {
     constructor(name) {
         this.name = name;
+        this.connections = [];
     }
     getName() {
         return this.name;
