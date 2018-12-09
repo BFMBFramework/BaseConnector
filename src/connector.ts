@@ -38,6 +38,8 @@ export abstract class Connector {
 		}
 	}
 
+	abstract getMe(id : string, options : any, callback : Function) : void;
+
 	abstract receiveMessage(id : string, options : any, callback : Function) : void;
 
 	abstract sendMessage(id : string, options : any, callback : Function) : void;
