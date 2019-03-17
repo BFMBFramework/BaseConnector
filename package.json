@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "@types/uuid": "^3.4.3",
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^3.2.4",
-    "typescript": "^2.7.1"
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.3.3333"
   }
 }
